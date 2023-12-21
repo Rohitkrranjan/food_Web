@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* .content{
+ 
+} */
+.list{
+  display: flex;
+}
+.list li{
+  padding: 20px;
+}
+.staffList{
+  display: flex;
+}
+.staffList li{
+  margin-right: 40px;
+  margin-left: 100px;
+}
+.nav{
+  display: flex;
+  margin: 50px;
+}
+.food{
+   display: flex;
+}
+.food li{
+  margin-right: 40px;
+  margin-left: 100px;
+}
+.nav li{
+  margin-right: 40px;
+  margin-left: 100px;
+}
+
+.header{
+  display: flex;
+}
+
+.header th{
+  margin-right: 40px;
+  margin-left: 100px;
+}
+.admin{
+  display: flex;
+  
+}
+.admin ul{
+  text-align: center;
+ 
+}
+.admin li{
+  margin-right: 40px;
+  margin-left: 100px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
